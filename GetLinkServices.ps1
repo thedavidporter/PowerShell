@@ -3,7 +3,6 @@
 # Comments:  Modified slightly to work in our environment.  Will need SubscriptionId and TenantId and run from Elevated account.
 # Comments:  This script will output all the Oracle Linked Services in an Azure environment.  Because we have dev and prd on same subscription it will output both.
 # Comments:  Make sure run PowerShell cmd with administrator or have all the modules installed required for this script in PowerShell
-# Comments:  SubscriptionID (ECAE DOE Production - Azure Commercial):  59c6748e-4df1-4d4b-a685-162eabf1f031 TenantID (State of Indiana): 2199bfba-a409-4f13-b0c4-18b45933d88d
 
 param (
     [Parameter(Mandatory = $true)]
